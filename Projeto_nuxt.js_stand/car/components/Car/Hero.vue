@@ -1,0 +1,14 @@
+<template>
+  <!-- HOME HERO -->
+  <div
+    class="relative h-screen w-100 bg-no-repeat bg-cover bj-bottom bg-[url('https://cdn.ferrari.com/cms/network/media/img/resize/649ae24e437d870023cf502f-sf90xxstradale_lineup_mobile?width=800&height=600')]"
+  >
+    <div class="z-10 absolute w-full h-full flex justify-center items-center">
+      <div class="text-center w-1/2"></div>
+      <h1 class="text-8xl font-serif mb-10 text-white">Find your drive</h1>
+
+      <CarSearchBar />
+    </div>
+    <div class="z-1 absolute w-full h-full bg-black opacity-50"></div>
+  </div>
+</template>
